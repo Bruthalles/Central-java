@@ -1,3 +1,4 @@
+package exemplo1;
 public class Produto{
     private String nome;
     private double precoBase;

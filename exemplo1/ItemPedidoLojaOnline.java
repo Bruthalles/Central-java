@@ -1,4 +1,4 @@
-
+package exemplo1;
 
 public class ItemPedidoLojaOnline implements PedidoItem{
     private Produto produto;

@@ -1,3 +1,4 @@
+package exemplo1;
 public class ItemPedidoLojaFisica implements PedidoItem {
     private Produto produto;
     private int quantidade;
