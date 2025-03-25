@@ -1,8 +1,7 @@
 package aula3.abstract_factory;
 
 public interface ItemPedido {
-    Produto geProduto();
+    Produto getProduto();
     int getQuantidade();
     double getPreco();
-
 } 
