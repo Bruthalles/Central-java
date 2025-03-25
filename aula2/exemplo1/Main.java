@@ -6,11 +6,11 @@ public class Main {
         pedidoLoja.adicionarItem(new Produto("Caderno",20.0),2);
         pedidoLoja.adicionarItem(new Produto("caneta", 2.0),5);
 
-        System.out.println("intens no pedido da loja fisica:");
+        System.out.println("itens no pedido da loja fisica:");
         for (PedidoItem item : pedidoLoja.getItens()){
             System.out.print("-"+ item.getProduto().getNome()+ "x"+ item.getQuantidade()+ "=> R$ "+ item.getPreco());
         }
-    System.out.println("TOtal: R$ "+ pedidoLoja.calcularTotal());
+    System.out.println("Total: R$ "+ pedidoLoja.calcularTotal());
     Pedido pedidoOnline = new PedidoOnline();
     pedidoOnline.adicionarItem(new Produto("livro",50.0 ),1 );
     pedidoOnline.adicionarItem(new Produto("mouse",80.0 ), 1);
@@ -21,5 +21,4 @@ public class Main {
     }
     System.out.println("Total:R$"+  pedidoOnline.calcularTotal());
     }
-
 }
