@@ -1,4 +1,4 @@
-package exemplo1;
+package aula2.factory_method;
 public class Produto{
     private String nome;
     private double precoBase;

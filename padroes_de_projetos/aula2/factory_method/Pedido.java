@@ -1,4 +1,4 @@
-package exemplo1;
+package aula2.factory_method;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package exemplo1;
+package aula2.factory_method;
 
 public interface PedidoItem{
     Produto getProduto();

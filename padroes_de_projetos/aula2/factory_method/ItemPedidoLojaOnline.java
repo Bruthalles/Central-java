@@ -1,12 +1,15 @@
-package exemplo1;
-public class ItemPedidoLojaFisica implements PedidoItem {
+package aula2.factory_method;
+
+public class ItemPedidoLojaOnline implements PedidoItem{
     private Produto produto;
     private int quantidade;
+    private static final double FRETE_FIXO = 10.0;
 
-    public ItemPedidoLojaFisica(Produto produto, int quantidade){
+    public ItemPedidoLojaOnline(Produto produto, int quantidade){
         this.produto = produto;
         this.quantidade = quantidade;
     }
+
     @Override
     public Produto getProduto(){
         return produto;
@@ -17,7 +20,7 @@ public class ItemPedidoLojaFisica implements PedidoItem {
     }
     @Override
     public double getPreco(){
-        return produto.getPrecoBase() * quantidade;
-
+        return (produto.getPrecoBase()*quantidade) + FRETE_FIXO;
     }
+    
 }
