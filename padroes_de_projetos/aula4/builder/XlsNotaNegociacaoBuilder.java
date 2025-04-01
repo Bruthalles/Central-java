@@ -1,12 +1,12 @@
 package padroes_de_projetos.aula4.builder;
 
-public class XmlNotaNegociacaoBuilder implements NotaNegociacaoBuilder{
+public class XlsNotaNegociacaoBuilder implements NotaNegociacaoBuilder{
     private NotaNegociacao nota;
     public XlsNotaNegociacaoBuilder(){
         this.nota = new NotaNegociacao();
     }
-}
-@Override
+
+    @Override
     public void buildCabecalho(){
         nota.adicionarConteudo("XLS: Cabeçalho da nota");
     }

@@ -5,6 +5,6 @@ public class ProducaoConfig extends AmbienteConfig{
         super(url,usuario,senha,timeoutSegundos,logDetalhado);     
     }
 
-    @Override
+    //@Override
     
 }

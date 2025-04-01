@@ -1,24 +1,24 @@
 package padroes_de_projetos.aula4.builder;
 
-public class XlsnotaNegociacaoBuilder implements NotaNegociacaoBuilder{
+public class PdfNotaNegociacaoBuilder implements NotaNegociacaoBuilder{
     private NotaNegociacao nota;
-    public XlsnotaNegociacaoBuilder(){
+    public PdfNotaNegociacaoBuilder(){
         this.nota = new NotaNegociacao();
     }
-
-    @Override
+    @Override 
     public void buildCabecalho(){
-        nota.adicionarConteudo("XLS: Cabeçalho da nota");
+        nota.adicionarConteudo("PDF: Cabecalho da Nota");
     }
     @Override
     public void buildOperacoes(){
-        nota.adicionarConteudo("XLS: Lista de operacoes");
+        nota.adicionarConteudo("PDF: Lista de operações");
     }
     @Override
     public void buildSumario(){
-        nota.adicionarConteudo("XLS: Sumário com totais e taxas");
+        nota.adicionarConteudo("PDF: Sumario com totais e taxas");
     }
     @Override
     public NotaNegociacao getNota(){
         return nota;
     }
+}

@@ -2,7 +2,7 @@ package padroes_de_projetos.aula4.builder;
 
 public class Main {
     public static void  main(String[] args)
-    NotaNegociacaoBuilder pdfBuilder = new PdfNotanegociacaoBuilder();
+    NotaNegociacaoBuilder pdfBuilder = new PdfNotaNegociacaoBuilder();
     NotaNegociacaoBuilder director = new NotaNegociacaoDirector(pdfBuilder);
     director.construirNota();
     NotaNegociacao notaPdf = pdfBuilder.getNota();
