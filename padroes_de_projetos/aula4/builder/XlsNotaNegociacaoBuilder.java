@@ -22,3 +22,4 @@ public class XlsNotaNegociacaoBuilder implements NotaNegociacaoBuilder{
     public NotaNegociacao getNota(){
         return nota;
     }
+}

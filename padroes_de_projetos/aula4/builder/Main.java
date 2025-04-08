@@ -10,7 +10,7 @@ public class Main {
     System.out.println(notaPdf.getConteudo());
 
     NotaNegociacaoBuilder xmlBuilder = new XmlNotaNegociacaoBuilder();
-    director = new NotaNegociacaoDirector(xm)
+    director = new NotaNegociacaoDirector(xm);
 
     NotaNegociacaoBuilder xlsBuilder = new XlsNotaNegociacaoBuilder();
     director = new NotaNegociacaoDirector(xlsBuilder);
