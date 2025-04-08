@@ -11,6 +11,6 @@ public class FabricaPedidoDigital implements FabricaPedido{
     }
     @Override
     public Entrega criarEntrega(){
-        return new EntregaDigital();
+        return new EntregaDigital(15.0);
     }
 }
