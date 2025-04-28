@@ -48,8 +48,4 @@ Já trabalhei com java, python e javascript.
   <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=Bruthalles&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bruthalles&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
-
 ---
-
-✉️ Se quiser trocar uma ideia, me chama!
-📩 **Email:** thallesgmkr@gmail.com
